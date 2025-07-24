@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="instituto, teológico, cristiano, bautista, lambayeque" name="keywords">
+    <meta content="Sitio Oficial del Instituto Teológico Bautista del Norte" name="description">
+    <title>ITBN - Instituto teológico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="Imagenes/logo_white.png" alt="Logo ITBN">
+            </div>
+            <div class="nav-links" id="NavLinks">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="solicitud_admision.html">Inscripciones</a></li>
+                    <li><a href="cronograma.html">Cronograma Académico</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle" id="Hamburger"> 
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Prepárate para estar<br><span>100% fundamentado en la Palabra de Dios</span></h1>
+            <p class="descripcion">
+                Estudia teología, doctrina bíblica y liderazgo cristiano para servir con excelencia en tu iglesia y comunidad.<br>
+                Formamos siervos con convicción, pasión y fidelidad a las Escrituras.
+            </p>
+            <a href="#" class="btn-lg">Comienza a estudiar ¡YA!</a>
+            <p class="nota">*No necesitas pre-requisitos</p>
+        </div>
+        <div class="hero-image">
+            <img src="Imagenes/principal.png" alt="Imagen principal">
+        </div>
+    </section>
+
+    <section class="cursos">
+        <h2>Nuestros cursos 2025</h2>
+        <p class="subtitulo">
+            Equipando a la Iglesia para la Obra del ministerio.<br>
+            ¿Con cuál deseas empezar?
+        </p>
+
+        <div class="cursos-grid">
+            <div class="card curso curso-1">
+                <div class="halo-container">
+                    <img src="Imagenes/Romani.png" alt="Curso 1">
+                </div>
+                <div class="contenido">
+                    <h3>Teología Sistemática</h3>
+                    <p>Aprenderás a conocer y reflexionar en los temarios organizados en la Teología Sistemática.</p>
+                    <span class="empezar">Empieza a estudiar</span>
+                </div>
+            </div>
+
+            <div class="card curso curso-2">
+                <div class="halo-container">
+                    <img src="Imagenes/hermana2.png" alt="Curso 2">
+                </div>
+                <div class="contenido">
+                    <h3>Filosofía del Ministerio</h3>
+                    <p>Principios fundamentales en la cual se guía un ministerio.</p>
+                    <span class="empezar">Empieza a estudiar</span>
+                </div>
+            </div>
+
+            <div class="card curso curso-3">
+                <div class="halo-container">
+                    <img src="Imagenes/pastor1.png" alt="Curso 3">
+                </div>
+                <div class="contenido">
+                    <h3>Evangelismo</h3>
+                    <p>Aprende a compartir el evangelio con eficacia en diferentes contextos.</p>
+                    <span class="empezar">Empieza a estudiar</span>
+                </div>
+            </div>
+
+            <div class="card curso curso-4">
+                <div class="halo-container">
+                    <img src="Imagenes/hermanojoven.png" alt="Curso 4">
+                </div>
+                <div class="contenido">
+                    <h3>Consejería Bíblica</h3>
+                    <p>Capacítate para aconsejar con sabiduría, compasión y fundamento bíblico.</p>
+                    <span class="empezar">Empieza a estudiar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>Instituto Teológico ITBN</h3>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/search/Ca.+8+de+Octubre+%23180,+Chiclayo+-+Per%C3%BA/@-6.7689144,-79.8390258,17z?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    Ca. 8 de Octubre #180, Chiclayo - Perú
+                    </a>
+                </p>
+                <p>
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="tel:+51994780237">+51 994 780 237</a>
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:informes@itbn.pe">informes@itbn.pe</a>
+                </p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/itbn.oficial" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 ITBN - Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('Hamburger');
+        const navLinks = document.getElementById('NavLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
