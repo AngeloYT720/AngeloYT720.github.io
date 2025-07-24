@@ -449,5 +449,6 @@ body {
 
     .card.curso {
         max-width: 100%;
+        height: auto;
     }
 }
